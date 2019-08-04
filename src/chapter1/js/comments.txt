@@ -1,0 +1,9 @@
+
+/**
+ * We can either declare a string using string literal as above
+ * or using new keyword followed with String constructor
+ */
+
+var stringConstruct = new String("Hi121#*@&(#&@");
+
+console.log(stringConstruct.toString());
