@@ -54,9 +54,9 @@ slicedString = email.slice(5, -16);
 console.log("6.4) slicedString :- " + slicedString);
 
 /** 6.5) If value of first argument is negative,
- * then slice method will return nothing
+ * then it will start count from end of String
  */
-slicedString = email.slice(-2, 5);
+slicedString = email.slice(-15, -10);
 console.log("6.5) :- " + slicedString);
 
 /** 7) replace function string.replace(stringToBeReplaced, replacement).
