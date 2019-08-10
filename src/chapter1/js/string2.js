@@ -29,8 +29,8 @@ console.log("Last index of: " + lastIndex);
  * 5) subString function.
  * This method is used to get the section of string.
  * It accepts two parameters,
- * 1) start index.
- * 2) number of characters, you want from string.
+ * 1) start: start index.
+ * 2) length: number of characters, you want from string. It is optional.
  */
 
 let subString = email.substr(5, 10);
@@ -57,7 +57,7 @@ console.log("subString with negative value for second argument : " + subString);
 
 /* it will return nothing. */
 
-/** 5.3) If pass negative value for first argument.
+/** 5.3) If pass negative value for first argument (start).
  *  It will start from length of the String + value of first argument
  *  and goes upto the value of second argument.
  *

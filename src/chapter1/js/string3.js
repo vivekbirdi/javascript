@@ -40,7 +40,7 @@ console.log("6.2) slicedString :- " + slicedString);
  *  20+ (-10)
  *  =20-10
  *  =10
- *  so result will be similar to email.slice(5,10)
+ * Same is true for second argument.
  */
 
 slicedString = email.slice(5, -10);
