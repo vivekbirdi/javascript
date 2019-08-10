@@ -96,3 +96,9 @@ console.log(
   "subString with value of first argument exceeds length of String: " +
     subString
 );
+
+/** 5.6) Second argument is optional, so if we donot pass second argument
+ *  it will return rest of strin from beginig from first argument.
+ */
+slicedString = email.substr(5);
+console.log("5.6) :- " + slicedString);

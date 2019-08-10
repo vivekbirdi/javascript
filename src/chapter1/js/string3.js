@@ -59,6 +59,12 @@ console.log("6.4) slicedString :- " + slicedString);
 slicedString = email.slice(-15, -10);
 console.log("6.5) :- " + slicedString);
 
+/** 6.6) Second argument is optional, so if we donot pass second argument
+ *  it will return rest of strin from beginig from first argument.
+ */
+slicedString = email.slice(5);
+console.log("6.6) :- " + slicedString);
+
 /** 7) replace function string.replace(stringToBeReplaced, replacement).
  *  This function accepts two arguments
  *  1) String or charSquence in a String which has to be replaced.
